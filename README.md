@@ -8,7 +8,7 @@ Monaco command line :- npm i monaco-editor
 
 The project deployed in firebase.
 
-Deployed URL : [Monoco Editor for json difference](https://monaco-editor-jsondiff-angular.web.app/)
+Deployed URL : [Monaco Editor for json difference](https://monaco-editor-jsondiff-angular.web.app/)
 
 ## code
 
