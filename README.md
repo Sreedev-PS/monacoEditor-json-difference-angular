@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## code
 
-```
+```ts
 import('monaco-editor').then((monaco) => {
         // Dispose of existing editor and models
         if (this.diffEditor) {
