@@ -1,0 +1,43 @@
+<div class="" style="padding:30px;background-color: aliceblue;height: 100vh;">
+
+    <div class="" style="justify-content: center;width: 100%;display: flex;">
+
+        <div class=""
+            style="width: 33.33%;;display: flex;text-align: center;background-color: rgb(251, 250, 248);height:200px;margin: 0 20px;box-shadow: 0px 0px 15px lightgray;border-radius:4px;align-items: center;justify-content: center;">
+            <div class="button-click" (click)="file1.click()">
+                <div>{{inputfile1 == '' ? 'Please Upload Source file':inputfile1}}</div>
+
+                <div> <span class="fa fa-upload"></span> </div>
+            </div>
+            <input type="file" #file1 hidden="true" (change)="onFileUpload($event, 'file1')">
+        </div>
+
+        <div class=""
+            style="width: 33.33%;display: flex;text-align: center;background-color: rgb(251, 250, 248);height:200px;margin: 0 20px;box-shadow: 0px 0px 15px lightgray;border-radius:4px;align-items: center;justify-content: center;">
+            <div class="button-click" (click)="file2.click()">
+                <div>{{inputfile2 == '' ? 'Please Upload Source file':inputfile2}}</div>
+
+                <div> <span class="fa fa-upload"></span> </div>
+            </div>
+            <input type="file" #file2 hidden="true" (change)="onFileUpload($event, 'file2')">
+        </div>
+
+    </div>
+
+    <div class="" style="width: 100%;text-align: center;margin-top: 25px;margin-bottom: 20px;">
+        <button (click)="showResult()" class="difference-btn"
+            style="padding: 10px 10px 10px 10px;border-radius: 5px; border: 0px; background-color: rgba(8, 78, 8, 0.703);color: white;">
+            Difference</button>
+    </div>
+
+    <div class=""
+        style="margin-top: 10px;height: 54%;background-color: white;box-shadow: 5px 7px 20px #0000001a; border-radius: 4px; padding: 28px">
+
+        <div style="height: 90%;"> 
+            <div class="sample-text" *ngIf="isSample||inputfile1==''||inputfile2 == ''">Sample Json</div>
+            <div class="" id="monaco-diff-editor" style="padding:28px 28px 38px 28px;height: 100%; width: 100%;"></div>
+        </div>
+
+    </div>
+
+</div>

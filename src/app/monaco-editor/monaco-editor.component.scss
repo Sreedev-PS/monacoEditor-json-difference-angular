@@ -1,0 +1,21 @@
+.button-click{
+    border: 3px dashed lightgray;
+    padding: 40px 100px;
+    border-radius: 5px;
+    // box-shadow: 6px 6px 10px #4745454a;
+}
+.button-click:hover{
+    
+    box-shadow: 6px 6px 10px rgb(0 0 0 / 15%);
+    border: 3px dashed rgba(155, 227, 163, 0.532);
+}
+
+.difference-btn:active{    
+    box-shadow: 6px 6px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(8, 78, 8);
+}
+.sample-text{
+    padding: 0px 0px 0px 26px;
+    color: #ff000061;
+    font-weight: 700;
+}
