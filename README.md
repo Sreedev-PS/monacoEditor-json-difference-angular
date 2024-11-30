@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
+## Demo
+
+The project developed and then deployed in firebase.
+Deployed URL : [asdasas](https://google.com)
+
 ## code
 
 ```ts
