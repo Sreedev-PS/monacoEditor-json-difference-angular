@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
+Monaco command line :- npm i monaco-editor 
+
 ## Demo
 
 The project deployed in firebase.
