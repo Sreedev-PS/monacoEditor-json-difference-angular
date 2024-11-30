@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Demo
 
 The project deployed in firebase.
-<br>
+<br/>
+
 Deployed URL : [Monoco Editor for json difference]([https://google.com](https://monaco-editor-jsondiff-angular.web.app/))
 
 ## code
